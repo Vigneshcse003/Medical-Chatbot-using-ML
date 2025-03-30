@@ -1,0 +1,200 @@
+version: "3.1"
+
+intents:
+  - greet
+  - help
+  - symptom
+  - goodbye
+  - botchallenge
+  - fever
+  - bloodpressure
+  - diabetes
+  - cold
+  - heartsurgery 
+  - eyepain
+  - earpain 
+  - bodypain
+  - headache
+  - skinallergy
+  - buy
+  - location
+  - location2
+  - location3
+  - location4
+  - location5
+
+
+ 
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+   
+  
+   
+    
+  
+  utter_help:
+  - text: "okay."
+  utter_help_you:
+  - text: "How can i help you ?"
+
+  utter_symptom:
+  - text: "What kind of Symptom you have ?"
+  
+  
+
+  
+
+  
+
+  
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_botchallenge:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_fever:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+
+  
+  utter_fever_company:
+  - text: "Company name: Micro Labs Private Limited"
+  utter_fever_tablet:
+  - text: "Tablet name: DOLO 650"
+    image: "https://5.imimg.com/data5/SELLER/Default/2023/12/368132689/EB/NW/IA/83177447/dolo-650-mgeeee.jpg"
+  utter_bloodpressure:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+  
+  utter_bloodpressure_tablet:
+  - text: "Tablet name: AMALONG A"
+    image: "https://www.netmeds.com/images/product-v1/600x600/331694/amlong_a_50mg_tablet_15s_40422_0_1.jpg"
+  utter_bloodpressure_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+  utter_diabetes:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+
+  utter_diabetes_tablet:
+  - text: "Tablet name: TRIPRIDE 1"
+    image: "https://m.media-amazon.com/images/I/915gga1qRSL.jpg"
+  utter_diabetes_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+
+  utter_cold:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+
+  utter_cold_tablet:
+  - text: "Tablet name: NEW DOLO COLD"
+    image: "https://mahimaimedicals.myshopify.com/cdn/shop/products/New_Dolo-cold_Tab_copy_1024x1024@2x.jpg?v=1553149436"
+  utter_cold_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+
+  utter_heartsurgery:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+
+  utter_heartsurgery_tablet:
+  - text: "Tablet name: PLAGERINE A75"
+    image: "https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/ivqougae5sax6trlb4gm.jpg"
+  utter_heartsurgery_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+
+  utter_eyepain:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+
+  utter_eyepain_eyedrop:
+  - text: "Eyedrop name: OFLACIN"
+    image: "https://images.apollo247.in/pub/media/catalog/product/o/f/ofl0051.jpg"
+  utter_eyepain_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+
+
+  utter_bodypain:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+  
+  utter_bodypain_tablet:
+  - text: "Tablet name: DOLOWIN PLUS"
+    image: "https://m.media-amazon.com/images/I/81BnK4M7zVL._AC_UF1000,1000_QL80_.jpg"
+  utter_bodypain_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+  utter_earpain:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+
+  utter_earpain_eardrop:
+  - text: "Eardrop name: OFLACIN"
+    image: "https://images.apollo247.in/pub/media/catalog/product/o/f/ofl0051.jpg"
+  utter_earpain_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+  utter_headache:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+
+  utter_headache_tablet:
+  - text: "Tablet name: DOLOPAR"
+    image: "https://www.netmeds.com/images/product-v1/600x600/312741/dolopar_tablet_15_s_0.jpg"
+  utter_headache_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+  utter_skinallergy:
+  - text: "Okay.I will suggest you some tablets.Definitely that will cure you from your problem."
+  utter_skinallergy_cream:
+  - text: "Cream name: MONO GUARD CREAM"
+    image: "https://www.practostatic.com/practopedia-images/v3/res-750/monoguard-cream-10gm_547e9d3e-8c34-48d5-9057-9951263387ec.JPG"
+  utter_skinallergy_company:
+  - text: "Company name: Micro Labs Private Limited"
+
+  utter_buy:
+  - text: "please Mention your location.."
+  utter_location:
+  - text: "okay."
+  utter_location_dpi:
+  - text: "Name: Nalam Pharmacy
+  Phone Number: 07558166744"
+  utter_location2:
+  - text: "okay."
+  utter_location2_hosur:
+  - text: " Name: Arun Pharmacy
+  Phone Number: 09080653533"
+  utter_location3:
+  - text: "okay."
+  utter_location3_salem:
+  - text: "Name: Thulasi Pharmacies India Pvt.Ltd
+  Phone Number: 9843977722" 
+  utter_location4:
+  - text: "okay."
+  utter_location4_krishnagiri:
+  - text: "Name: Sri Ganapathy Medicals
+  Phone Number: 09944991606"
+  utter_location5:
+  - text: "okay."
+  utter_location5_erode:
+  - text: "Name: Senthil Pharmacy
+  Phone Number: 07397421777" 
+
+
+
+
+
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+  
+
+  

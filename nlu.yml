@@ -1,0 +1,178 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: help
+  examples:  |
+    - i am fine
+    - fine 
+    - fyn
+    - not good
+    - not well
+  
+- intent: symptom
+  examples:  |
+    - symptom
+    - having symptom
+    - i want to identify my problem
+    - problem
+    - symptom problem
+    - how to identify my problem
+    - how to identify my symptom
+
+
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: botchallenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: fever
+  examples: |
+    - fever
+    - suffering from fever
+    - not intrested in eating
+    - hot and dry skin
+    - vomiting
+
+- intent: bloodpressure
+  examples: |
+    - blurred vision
+    - nose bleeds
+    - chest pain
+    - bp
+    - blood pressure
+
+- intent: diabetes
+  examples: |
+    - diabetes
+    - are very hungry
+    - are very thirsty
+    - have blurry vision
+    - feel very tired
+
+- intent: cold
+  examples: |
+    - cold
+    - suffering from cold
+    - blocked nose
+    - cough
+    - breathing difficulty
+
+- intent: heartsurgery
+  examples: |
+    - heart surgery
+    - depression
+    - memory problems
+    - insomnia or difficulty sleeping
+    - muscle pain in chest area
+
+- intent: eyepain
+  examples: |
+    - eyepain
+    - stabbing sensation
+    - eyeache
+    - throbbing
+    - aching
+  
+- intent: earpain
+  examples: |
+    - earpain
+    - trouble sleeping
+    - fussiness
+    - loss of balance
+    - earache
+
+- intent: bodypain
+  examples: |
+    - bodypain
+    - joint aches and pains
+    - morning stiffness
+    - weakness
+    - bodyache
+
+- intent: headache
+  examples: |
+    - headache
+    - head pain
+    - head usually hurts on both sides
+
+- intent: skinallergy
+  examples: |
+    - allergy in skin
+    - rash
+    - itching
+    - redness
+    - swelling
+
+- intent: buy
+  examples:  |
+    - how to buy the tablet
+    - buy
+    - purchase
+    - purchase the tablet
+    - buy the tablet
+    - purchase the tablet
+  
+- intent: location
+  examples:  |
+    - dharmapuri
+    - dpi
+    - i am from dpi
+    - i am from dharmapuri 
+    
+- intent: location2
+  examples:  |
+    - hosur
+    - hsr
+    - i am from hsr
+    - i am from hosur
+
+- intent: location3
+  examples:  |
+    - salem
+    - i am from salem
+
+- intent: location4
+  examples:  |
+    - krishnagiri
+    - i am from krishnagiri
+
+- intent: location5
+  examples:  |
+    - erode
+    - i am from erode
+   
+
+

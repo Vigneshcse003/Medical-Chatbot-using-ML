@@ -1,0 +1,137 @@
+version: "3.1"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: help
+  steps:
+  - intent: help
+  - action: utter_help
+  - action: utter_help_you
+
+- story: symptom
+  steps:
+  - intent: symptom
+  - action: utter_symptom
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: botchallenge
+  steps:
+  - intent: botchallenge
+  - action: utter_botchallenge
+
+
+
+- story: fever 
+  steps:
+  - intent: fever
+  - action: utter_fever
+  - action: utter_fever_tablet
+  - action: utter_fever_company
+
+- story: bloodpressure
+  steps:
+  - intent: bloodpressure
+  - action: utter_bloodpressure
+  - action: utter_bloodpressure_tablet
+  - action: utter_bloodpressure_company
+
+- story: diabetes
+  steps:
+  - intent: diabetes
+  - action: utter_diabetes
+  - action: utter_diabetes_tablet
+  - action: utter_diabetes_company
+
+- story: cold
+  steps:
+  - intent: cold
+  - action: utter_cold
+  - action: utter_cold_tablet
+  - action: utter_cold_company
+
+- story: heartsurgery 
+  steps:
+  - intent: heartsurgery
+  - action: utter_heartsurgery
+  - action: utter_heartsurgery_tablet
+  - action: utter_heartsurgery_company
+
+- story: eyepain 
+  steps:
+  - intent: eyepain
+  - action: utter_eyepain
+  - action: utter_eyepain_eyedrop
+  - action: utter_eyepain_company
+
+- story: earpain 
+  steps:
+  - intent: earpain
+  - action: utter_earpain
+  - action: utter_earpain_eardrop
+  - action: utter_earpain_company
+
+- story: bodypain
+  steps:
+  - intent: bodypain
+  - action: utter_bodypain
+  - action: utter_bodypain_tablet
+  - action: utter_bodypain_company
+
+- story: headache 
+  steps:
+  - intent: headache
+  - action: utter_headache
+  - action: utter_headache_tablet
+  - action: utter_headache_company
+
+- story: skinallergy
+  steps:
+  - intent: skinallergy
+  - action: utter_skinallergy
+  - action: utter_skinallergy_cream
+  - action: utter_skinallergy_company
+
+- story: buy
+  steps:
+  - intent: buy
+  - action: utter_buy
+  
+- story: location
+  steps:
+  - intent: location
+  - action: utter_location
+  - action: utter_location_dpi
+  
+- story: location2
+  steps:
+  - intent: location2
+  - action: utter_location2
+  - action: utter_location2_hosur
+
+- story: location3
+  steps:
+  - intent: location3
+  - action: utter_location3
+  - action: utter_location3_salem
+
+- story: location4
+  steps:
+  - intent: location4
+  - action: utter_location4
+  - action: utter_location4_krishnagiri
+
+- story: location5
+  steps:
+  - intent: location5
+  - action: utter_location5
+  - action: utter_location5_erode
+
